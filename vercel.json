@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "IPC-Extraction-Legal-Document-Clutering",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "IPC-Extraction-Legal-Document-Clutering"
+    }
+  ]
+}
